@@ -13,7 +13,6 @@ class DeviceInfolist
         return $schema
             ->components([
                 ImageEntry::make('imagenes')
-                    ->disk('public')
                     ->label('Imagenes'),
                 TextEntry::make('equipo'),
                 TextEntry::make('seriales'),

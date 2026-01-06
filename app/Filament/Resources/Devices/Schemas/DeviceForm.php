@@ -17,7 +17,6 @@ class DeviceForm
                         ->label('Imagenes')
                         ->image()
                         ->imageEditor()
-                        ->disk('public')
                         ->circleCropper()
                         ->avatar()
                         ->maxSize(1024),
